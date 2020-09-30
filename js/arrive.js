@@ -42,3 +42,33 @@ console.log('numbers: ', numbers);
 
 // Выведет в консоль новый массив
 // numbers:  (5) ["label-0", "label-1", "label-2", "label-3", "label-4"]
+
+// *****************   Цикл for...of   ************
+
+// Итерация по массиву
+
+const friends = ['Катя', 'Вася', 'Петя'];
+
+for (const friend of friends) {
+  console.log(friend);
+}
+// выведет в консоль список друзей
+// Катя
+// Вася
+// Петя
+
+//
+//
+// Итерация по строке
+
+const string = 'лапша';
+
+for (const character of string) {
+  console.log(character);
+}
+// выведет в консоль буквы по порядку
+// л
+// а
+// п
+// ш
+// а
