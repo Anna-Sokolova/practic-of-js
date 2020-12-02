@@ -2,21 +2,19 @@
 // git commit -m "commit_name"
 // git push
 
-
-
 // == task-1 == //
-// Написати ф-ю яка приймає в себе 2 параметра (обєкт замовлення і обєкт з цінами товару) 
+// Написати ф-ю яка приймає в себе 2 параметра (обєкт замовлення і обєкт з цінами товару)
 // Ця ф - я має повернути ціну замовлення
-// const productsPrice = { apple: 20, orange: 5, cheese: 12, pork: 45, bread: 23 } 
-// const orderA = { apple: 5, cheese: 1, bread: 3 } 
+// const productsPrice = { apple: 20, orange: 5, cheese: 12, pork: 45, bread: 23 }
+// const orderA = { apple: 5, cheese: 1, bread: 3 }
 // const orderB = { orange: 10, pork: 2, bread: 1 }
 
 // const toGetPrice = function () { }
 // const toGetPrice = () => { }
 // function toGetPrice() { }
 
-// const productsPrice = { apple: 20, orange: 5, cheese: 12, pork: 45, bread: 23 } 
-// const orderA = { apple: 5, cheese: 1, bread: 3 } 
+// const productsPrice = { apple: 20, orange: 5, cheese: 12, pork: 45, bread: 23 }
+// const orderA = { apple: 5, cheese: 1, bread: 3 }
 // const orderB = { orange: 10, pork: 2, bread: 1 }
 
 // const toGetPrice = (a, b) => {
@@ -38,9 +36,8 @@
 // console.log(toGetPrice(productsPrice, orderA));
 // console.log(toGetPrice(productsPrice, orderB));
 
-
 // == task-2 == //
-// Написати ф-ю isObjectEmpty яка перевіряє чи обєкт пустий чи ні. 
+// Написати ф-ю isObjectEmpty яка перевіряє чи обєкт пустий чи ні.
 // Якщо обєкт пустий то повернути true інакше false
 // isObjectEmpty({}) // true
 // isObjectEmpty({name: 'user, age: {21}}) // false
@@ -51,9 +48,6 @@
 
 // console.log(isObjectEmpty({})) // true
 // console.log(isObjectEmpty({ name: 'user', age: 21 })) //false
-
-
-
 
 // Practice. Classes.
 // Counter
@@ -74,7 +68,7 @@
 //         this.startCount += this.countStep;
 //         this.toSetStartCount(place);
 //     }
-    
+
 //     toDecrement(place) {
 //         if (this.startCount <= this.minCount) return;
 //         this.startCount -= this.countStep;
@@ -89,7 +83,6 @@
 // const myCounter = new Counter(5, 1, count);
 // console.log(myCounter);
 
-
 // incBtn.addEventListener('click', () => {
 //     myCounter.toIncrement(count)
 // });
@@ -97,7 +90,6 @@
 // decBtn.addEventListener('click', () => {
 //     myCounter.toDecrement(count)
 // })
-
 
 // // Calculate module 5
 // const btnPlus = document.getElementById('plus');
@@ -107,7 +99,6 @@
 // const first = document.getElementById('first-num');
 // const second = document.getElementById('second-num');
 // const result = document.getElementById('result');
-
 
 // class Calc {
 //     constructor(id) {
@@ -153,7 +144,6 @@
 // const myCalc = new Calc(1);
 // console.log(myCalc);
 
-
 // btnPlus.addEventListener('click', () => {
 //     myCalc.toSum(result, first, second)
 // })
@@ -170,7 +160,6 @@
 //     myCalc.toShare(result, first, second)
 // })
 
-
 // Library and Book
 
 // class Lbrary {
@@ -178,13 +167,13 @@
 //         this.books = [];
 //         this.favourite = [];
 //     }
-//     toBuy(book) { 
+//     toBuy(book) {
 //         if (this.books.includes(book)) {
 //             alert('Такая книга уже есть');
 //         }
 //         this.books.push(book);
 //     }
-//     toSell(bookName) { 
+//     toSell(bookName) {
 //         this.books.forEach(({name}, idx) => {
 //             if (name === bookName) {
 //                 this.books.splice(idx, 1)
@@ -206,7 +195,7 @@
 //         return this.favourite;
 //     }
 
-//     get countFavoriteBooks() { 
+//     get countFavoriteBooks() {
 //         return this.favourite.length;
 //     }
 //     get finishedBook() { }
@@ -248,7 +237,3 @@
 // const myBook = new Book(book);
 // console.log(myBook);
 // console.log(myBook.toRead(45));
-
-
-
-
