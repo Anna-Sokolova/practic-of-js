@@ -116,61 +116,61 @@ function createInnerPost(array, place) {
   place.insertAdjacentHTML('afterbegin', article);
   return article;
 }
-// console.log(createInnerPost(images, insertElem));
+console.log(createInnerPost(images, insertElem));
 
 //form
 
-function createForm(place) {
-  const formTitle = document.createElement('h2');
-  formTitle.textContent = 'Hello World';
+// function createForm(place) {
+//   const formTitle = document.createElement('h2');
+//   formTitle.textContent = 'Hello World';
 
-  const desc = document.createElement('p');
-  desc.textContent = 'Lorem ipsum dolor, sit amet consectetur adipisicing';
+//   const desc = document.createElement('p');
+//   desc.textContent = 'Lorem ipsum dolor, sit amet consectetur adipisicing';
 
-  const nametitle = document.createElement('label');
-  nametitle.textContent = 'Write name';
+//   const nametitle = document.createElement('label');
+//   nametitle.textContent = 'Write name';
 
-  const nameInput = document.createElement('input');
-  nameInput.placeholder = 'name';
+//   const nameInput = document.createElement('input');
+//   nameInput.placeholder = 'name';
 
-  const phonetitle = document.createElement('label');
-  phonetitle.textContent = 'Write phone';
+//   const phonetitle = document.createElement('label');
+//   phonetitle.textContent = 'Write phone';
 
-  const phoneInput = document.createElement('input');
-  phoneInput.placeholder = 'phone';
+//   const phoneInput = document.createElement('input');
+//   phoneInput.placeholder = 'phone';
 
-  const emailtitle = document.createElement('label');
-  emailtitle.textContent = 'Write email';
+//   const emailtitle = document.createElement('label');
+//   emailtitle.textContent = 'Write email';
 
-  const emailInput = document.createElement('input');
-  emailInput.placeholder = 'email';
+//   const emailInput = document.createElement('input');
+//   emailInput.placeholder = 'email';
 
-  const messageTitle = document.createElement('label');
-  messageTitle.textContent = 'Message';
+//   const messageTitle = document.createElement('label');
+//   messageTitle.textContent = 'Message';
 
-  const message = document.createElement('textarea');
-  message.placeholder = 'Your text message';
+//   const message = document.createElement('textarea');
+//   message.placeholder = 'Your text message';
 
-  const submitBtn = document.createElement('input');
-  submitBtn.type = 'submit';
+//   const submitBtn = document.createElement('input');
+//   submitBtn.type = 'submit';
 
-  const form = document.createElement('form');
-  form.append(
-    formTitle,
-    desc,
-    nametitle,
-    nameInput,
-    nameInput,
-    phonetitle,
-    phoneInput,
-    emailtitle,
-    emailInput,
-    messageTitle,
-    message,
-    submitBtn,
-  );
-  console.log(form);
-  place.append(form);
-}
+//   const form = document.createElement('form');
+//   form.append(
+//     formTitle,
+//     desc,
+//     nametitle,
+//     nameInput,
+//     nameInput,
+//     phonetitle,
+//     phoneInput,
+//     emailtitle,
+//     emailInput,
+//     messageTitle,
+//     message,
+//     submitBtn,
+//   );
+//   console.log(form);
+//   place.append(form);
+// }
 
-createForm(insertElem);
+// createForm(insertElem);

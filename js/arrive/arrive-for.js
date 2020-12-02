@@ -72,3 +72,13 @@ for (const character of string) {
 // п
 // ш
 // а
+
+var names = [
+  'Hole-in-one!',
+  'Eagle',
+  'Birdie',
+  'Par',
+  'Bogey',
+  'Double Bogey',
+  'Go Home!',
+];
